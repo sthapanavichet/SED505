@@ -1,0 +1,27 @@
+1. What type of a design pattern did you employ (creational, structural, behavioural, custom)? Why?
+=> We used creational design patterns for the creation of the RetailStore object (Singleton) because
+realistically speaking, there would only be one RetailStore running on a machine as it would take too
+much computational power to run serveral RetailStore on one machine. Classes like Apple , Orange also
+uses a creational design pattern which is the factory design pattern, with GroceryIf as the interface
+class for the grocery items. Similarly, Hammer and Screwdriver is also created in the same fashion 
+with ToolIf as its' interface class.
+
+2. What is inversion of control?
+=> inversion of control is a design principle where a framework manages the application instead of 
+the application managing multiple libraries.
+
+3. The open/close principle states that any class, component or entity should be open for extension
+but closed for modification. How could one extend a class without modifying the code?
+=> We can extend a behaviour of a class, component or entity without modifying the original source
+by multiple methods such as inheritance, polymorphism (Interface classes), Composition or by using
+a design patterns which encapsulates all the concepts mentioned above.
+
+4. How are design patterns different from algorithms?
+=> design patterns are general solutions to a common problem in software design, it is designed for
+a specific or particular problem, it can be thought of as a formula to a common problem in
+software/system design. While algorithms on the other hand, are a very specific set of instructions
+to solve a particular problem, it can only work on one particular problem and is usually very complex
+and low level in contrast to design patterns.
+
+Link to the UML Diagram
+https://lucid.app/lucidchart/8ae4fe91-d11b-4c77-8a95-698d14792b18/edit?invitationId=inv_7f48fa09-983e-4e0f-9437-ccf901fa74bc
