@@ -16,3 +16,8 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## How to run the java project
+
+- main function can be found in mainClass.java in the src folder
+- Classes can be found in the vehiclePackage folder as they are packaged into one package
