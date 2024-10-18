@@ -1,1 +1,30 @@
-sada
+- What type of design pattern (creational, structural, behavioral, custom) did you employ in this assignment? Why?
+=> We used an adapter design pattern, which is a structural design pattern. We used the adapter pattern because we
+wanted to integrate the legacy code, which includes the boat, car, and airplane classes, into one adapter class (Vehicle)
+to make it compatible with the modern TravelSimulator.
+
+- Describe a software design pattern that you have used before this course, even if you were not aware of it.
+=> We didn't use any design patterns before this course as we were not aware of the design aspect of software
+development. We might have used a few design patterns, but nothing that we have learned so far has been done by us
+before. The closest design pattern that we have used is the factory builder pattern, which is similar to what we used
+to do with inheritance for similar classes.
+
+- Do you feel standard design patterns are of great assistance, or great hindrance, in software design? Give advantages
+and disadvantages.
+=> There are many advantages to standard design patterns such as:
+    - Systematic approach to solving programming problems.
+    - The standard design patterns can be tailored specifically towards each problem.
+    - Design patterns encourage programmers to write code with more reusability and readability.
+    - Great resources for engineers trying to solve a problem that has been encountered before.
+    - Design patterns reduce complexity and make the design more structured.
++ The disadvantages would be:
+    - Could introduce unnecessary complexity to solving a simple problem. This is why it is important to tailor the
+    patterns based on specific needs and use cases.
+    - Design patterns can also cause over-engineering because sometimes a simpler solution exists, but engineers won't
+    think of it because of design patterns.
+
+- What are some major drawbacks of the Singleton design pattern?
+=> Singleton design patterns make it so that only one instance of a class can exist at a time, which is a big disadvantage
+because the whole point of making a class is to reuse the class by making multiple objects of the class. Singleton also
+limits the user from extending or scaling the class because it is tightly coupled. Being tightly coupled is also a problem
+in itself because it makes the code less flexible and lessens its reusability.

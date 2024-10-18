@@ -22,6 +22,3 @@ a specific or particular problem, it can be thought of as a formula to a common 
 software/system design. While algorithms on the other hand, are a very specific set of instructions
 to solve a particular problem, it can only work on one particular problem and is usually very complex
 and low level in contrast to design patterns.
-
-Link to the UML Diagram
-https://lucid.app/lucidchart/8ae4fe91-d11b-4c77-8a95-698d14792b18/edit?invitationId=inv_7f48fa09-983e-4e0f-9437-ccf901fa74bc
