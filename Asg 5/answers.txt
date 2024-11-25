@@ -1,0 +1,8 @@
+1. Similarity: Both standard and machine learning (ML) design patterns aim to provide reusable solutions to recurring problems. For instance, in both paradigms, patterns help ensure scalability, maintainability, and modularity in systems.
+Difference: Standard design patterns are primarily about structuring and organizing software components based on well-established object-oriented principles. In contrast, ML design patterns focus on solving specific challenges in the ML workflow, such as data preprocessing, model training, fine-tuning or model deployment.
+
+2. Yes, machine learning design patterns are incredibly useful. They provide proven strategies to address common challenges in ML from data input to improving model performance.
+
+3. The Facade Pattern could be used for this assignment. an AutonomousDrivingSystem class could act as a facade that encapsulates the complexities of the PerceptionModule, PlanningModule, and ControlModule. This would provide a simplified interface for initializing and running the system.
+
+4. The Pipeline Pattern could also be employed. The Pipeline Pattern structures the workflow into sequential stages, where the output of one stage serves as the input to the next. For this assignment: Sensor data (Camera, LIDAR, GPS) could first pass through a preprocessing stage. The preprocessed data could then feed into the PerceptionModule for detection. Next, the output of perception could inform the PlanningModule for route adjustment. Finally, the ControlModule would execute the planned actions.
